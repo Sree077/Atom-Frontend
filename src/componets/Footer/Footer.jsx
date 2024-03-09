@@ -50,7 +50,7 @@ function Footer() {
 
     <div className="copyright">
         <hr />
-        <p>Copyright © 2024; All rights reserved</p>
+        <p>Copyright © 2024; All rights reserved. Designed and developed by Team Shinobi.</p>
     </div>
 </footer>
 
