@@ -1,0 +1,15 @@
+.sli-container {
+    width: 100%;
+}
+.slide-img{
+    width: 100%;
+}
+.react-slideshow-container .default-nav {
+    background-color: #DA0037;
+}
+
+@media (max-width: 480px) {
+    .slide-img{
+        height: 100%;
+    }
+}

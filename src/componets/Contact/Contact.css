@@ -1,0 +1,104 @@
+
+.contact {
+    background-color: #141414;
+    position: relative;
+    height: 80vh;
+}
+.contact .wave {
+    width: 100%;
+    height: 300px;
+    position:absolute;
+    top: 0;
+}
+
+.con-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #EDEDED;
+    z-index: 100;
+}
+.con-container .row{
+    width: 90%;
+}
+.con-container .row .wrapper {
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.con-container .row .wrapper .col-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feedback-form{
+    background-color: #D9D9D9;
+    padding: 3em;
+}
+
+.feedback-form, .google-map {
+    flex: 1;
+    margin-right: 10px;
+}
+.google-map {
+    height: 416px;
+}
+
+.feedback-form h2 {
+    margin-bottom: 20px;
+}
+
+.feedback-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback-form input, .feedback-form textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+}
+
+.feedback-form button {
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+}
+
+.google-map iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .contact{
+        height: 100%;
+    }
+    .con-container .row .wrapper{
+        display: grid;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .feedback-form, .google-map {
+        margin-right: 0px;
+    }
+    .con-container .row .wrapper .col-2 {
+        width: 100%;
+    }
+    .contact .wave {
+        width: 100%; 
+        height: 150px;
+        position: absolute;
+        top: -3px;
+    }
+}
